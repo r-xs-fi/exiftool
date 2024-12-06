@@ -1,8 +1,12 @@
 {
 	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
 	"version_major": 1,
-	"project_name": "exiftool",
+	"project_name": "ExifTool",
+	"meta": {
+		"description": "Container image for ExifTool - Read, Write and Edit Meta Information!",
+		"website": "https://exiftool.org/"
+	},
 	"docker_images": [
-		{ "tag_latest": true, "image": "ghcr.io/r-xs-fi/exiftool" }
+		{ "tag_latest": true, "image": "ghcr.io/r-xs-fi/exiftool", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/riscv64"] }
 	]
 }
